@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      padding-right: 90px;
+      height: 100vh;
+}
+
+.container{
+content: '';
+background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)) , url(https://cdn.pixabay.com/photo/2022/07/13/10/54/mountains-7319059__340.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+position: absolute;
+top: 0;
+height: 100vh;
+width: 100vw;
+z-index: -1;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 800px;
+}
+
+h2{
+    color: #fff;
+}
+
+h1{
+    padding-bottom: 14px;
+    font-size: 40px;
+    color: #fff;
+}
+
+h3{
+    font-size: 25px;
+    padding-left: 336px;
+    color: #fff;
+    padding-top: 21px;
+}
+
+p{
+    font-size: 20px;
+    color: #fff;
+    margin: 15px 0;
+}
+
+select, option{
+    color: black;
+    font-weight: 900;
+    font-size: 16px;
+}
+
+input{
+    border-radius: 10px;
+    color: black;
+    font-size: 18px;
+    padding: 10px 40px;
+    border-radius: 12px;
+    font-weight: 800;
+}
+
+button{
+    color: #fff;
+    background-color: #ff0055;
+    font-size: 20px;
+    padding: 11px 201px;
+    border-radius: 25px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+
